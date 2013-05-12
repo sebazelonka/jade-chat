@@ -1,25 +1,22 @@
-doctype 5
-html(lang="en")
-  head
+title = 'speaker sign up'
+include includes/head
+include css/login.css
 
-  body
-    h1 Conference Name
-      
+body
+  h1 Conference Name
+  
+  form
     label(for='speaker-name')
       | Speaker name:
       input(id='speaker-name')
-
     label(for='presentation-name')
       | Presentation name:
       input(id='presentation-name')
-
     label(for='description')
       | Description:
       textarea(id='description')
-
     label(for='link')
       | Link to PDF:
       input(id='link')
-
     button
       | submit
